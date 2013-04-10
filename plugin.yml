@@ -1,0 +1,15 @@
+name: WhereAmI
+author: drtshock
+main: com.bukkthat.whereami.WhereAmI
+version: 0.1
+commands:
+  whereami:
+    permission: whereami.use
+    description: Check your location!
+    usage: /<command>
+    permission-message: You can't do that!
+    aliases: ['location', 'loc']
+permissions:
+  whereami.use:
+    default: op
+    description: Allow use of /whereami command.
